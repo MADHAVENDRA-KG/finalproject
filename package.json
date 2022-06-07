@@ -1,0 +1,29 @@
+{
+  "name": "azure-blob-js-browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "last 1 Edge version",
+    "last 1 Chrome version",
+    "last 1 Firefox version",
+    "last 1 safari version",
+    "last 1 webkit version"
+  ],
+  "dependencies": {
+    "@azure/storage-blob": "^12.10.0",
+    "file-url": "^4.0.0",
+    "parcel": "^2.6.0",
+    "prompt-sync": "^4.2.0",
+    "request": "^2.88.2",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3"
+  }
+}
